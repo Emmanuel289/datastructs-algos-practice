@@ -1,7 +1,7 @@
 """
 Code for decrypting a message that is encrypted using Caesar's cipher. The key for the ciphering scheme is based on the word "UNICORN" 
-where the sum of letters in the sublist "CORN" is subtracted by sum of letters in the sublist "UNI" with C = 9 and I = 27
-i.e. key = sum(CORN)-sum(UNI)
+where the sum of letters in the substring "CORN" is subtracted by sum of letters in the substring "UNI", 
+i.e., key = sum(CORN)-sum(UNI)
 
 Input: encrypted_message
 Output: decrypted message
@@ -22,9 +22,9 @@ def cipher_key(base):
 		sum_left  = 0
 		sum_right = 0
 		for char in left:
-			num = ord(char)-64
+			num = ord(char)-64  # 'a'= 0, 'b'= 1, and so forth
 		
-			sum_left+= (num)*3
+			sum_left+= (num)*3  #multiply numeric value by 3
 		
 		for char in right:
 			num = ord(char)-64
