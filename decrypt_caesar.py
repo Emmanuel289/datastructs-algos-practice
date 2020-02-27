@@ -67,6 +67,3 @@ def decrypt(text):
 	return original[:-1]  #delete the last spacing
 	
 	
-#Test decryption
-encrypt_text = "Gnwj gfw eaddagf ewjuzsflk sfv ugmflafy"
-print("The decrypted message that was sent between the interns is: {}".format(decrypt(encrypt_text)))  #Decrypted message is: Over one million merchants and counting
