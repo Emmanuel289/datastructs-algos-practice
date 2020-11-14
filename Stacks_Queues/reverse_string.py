@@ -18,9 +18,9 @@ def reverse_string(mystr):
 		
 		
 #Test
-input_strs = ['cat', 'dog', 'chicken']
+input_strs = ['cat', 'dog', 'chicken', 'hen', 'goat', 'hippoppotamus']
 
-rev_strs = ['tac', 'god', 'nekcihc']
+rev_strs = ['tac', 'god', 'nekcihc', 'neh', 'taog', 'sumatoppoppih']
 
 
 for index in range(len(input_strs)):
